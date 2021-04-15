@@ -1,0 +1,49 @@
+前情回顾
+
+1. 时间数据类型
+   date   日期  --> curdate()  date()
+   time   时间  --> curtime()  time()
+   datetime  日期 + 时间  --> now()
+   year
+   timestamp
+
+   * 时间可以比较大小
+   * 时间运算  时间-interval  时间间隔
+
+2. 高级查询语句
+   
+   like   regexp
+
+   order by     limit
+
+   union
+
+   多表查询
+   
+3. 数据库的备份
+   
+   mysqldump -uroot  -p  db  > xxxx.sql
+
+   mysql -uroot  -p  db  < xxxx.sql
+
+4. pymysql 使用
+   
+   pymysql.connect()
+   cur db.cursor()
+   cur.execute(sql,[])
+   db.commit()
+   db.rollback()
+   cur.fetchone()
+   cur.fetchmany()
+   cur.fetchall()
+   cur.close()
+   db.close()
+
+5. 二进程文件的存储
+
+****************************************
+
+作业 ： 1. 完成 github账号注册
+        2. 将聊天室和ftp文件服务器项目生成git项目上传到你的github
+	3. 熟练git命令使用
+	4. 回顾之前的小项目流程
